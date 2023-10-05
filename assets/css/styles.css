@@ -126,7 +126,16 @@
     fill: #ffffff;
   }
 }
+.my-svg {
+  width: 461.4px;
+}
 
+/* Media query for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+  .my-svg {
+    width: 327px;
+  }
+}
 /* --------------------------- Home Page --------------------------- */
 
 .hero-container {
